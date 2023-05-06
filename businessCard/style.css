@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: Cambria;
+  min-zoom: 100%;
+  user-zoom: 100%;
+  max-zoom: 100%;
+}
+
+body{
+  color: #FFFFFF;
+}
+
+
+main {
+  min-height: 95vh;
+  margin: 3% 18% 2%;
+  border: 5px solid #00796B;
+  background-color: #009688;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+main img {
+  margin-top: 1em;
+  margin-left: 8em;
+  background-color: #333;
+  border: 3px solid #FFC107;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  margin-top: -3.5em;
+  text-align: center;
+  font-weight: 900;
+}
+
+.email {
+  text-align: center;
+  color: #B2DFDB;
+}
+
+.skills {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 15em;
+  line-height: 2;
+}
+
+.skills h2 {
+  margin-top: 1em;
+  margin-left: -1em;
+  text-transform: uppercase;
+}
+
+.skills > ul > li {
+  list-style-type: "-";
+  margin-left: -1em;
+  font-weight: 500;
+  color: #B2DFDB;
+}
+
+.interests {
+  display: inline-block;
+  margin-left: 10em;
+  line-height: 2;
+}
+
+.interests h2 {
+  margin-left: -1em;
+  text-transform: uppercase;
+}
+
+.interests > ul > li {
+  font-weight: 500;
+  list-style-type: "-";
+  margin-left: -1em;
+  color: #B2DFDB;
+}
+
+.socials {
+  margin-top: 5em;
+  background: #333;
+  margin-inline: 30%;
+  border-radius: 10px;
+}
+
+div.socials > a {
+  font-size: 40px;
+  margin: 22px;
+  color: #FFC107;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
